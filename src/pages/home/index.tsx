@@ -23,6 +23,7 @@ import {
   ProjectsAreaContent,
   ProjectAreaWrapperColumns,
 } from "./style";
+import { AboutMe } from "@/components/About";
 
 
 export const Home = (): JSX.Element => {
@@ -45,6 +46,9 @@ export const Home = (): JSX.Element => {
               </Button>
               <Button as="a" href="#tecnologias" type="btLink" color="grey5">
                 Tecnologias
+              </Button>
+              <Button as="a" href="#about" type="btLink" color="grey5">
+                Sobre mim
               </Button>
             </HeaderButtonsArea>
           </HeaderContent>
@@ -99,6 +103,8 @@ export const Home = (): JSX.Element => {
           </ProjectAreaWrapperColumns>
         </Container>
       </ProjectsArea>
+      <AboutMe />
+
     </main>
   );
 };

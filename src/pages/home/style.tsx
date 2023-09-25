@@ -88,3 +88,8 @@ export const ProjectAreaWrapperColumns = styled(Flex, {
     flexDirection: "column",
   },
 });
+
+export const AboutMeArea = styled("p", {
+  
+  display: "flex",
+})
