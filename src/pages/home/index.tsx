@@ -86,6 +86,7 @@ export const Home = (): JSX.Element => {
               >
                 Acessar perfil no LinkedIn
               </Button>
+      <AboutMe />
             </ProjectsAreaSocialMediaMessage>
             <ProjectsAreaContent>
               <Text type="body1" color="grey2" css={{ marginBottom: "$2" }}>
@@ -103,7 +104,6 @@ export const Home = (): JSX.Element => {
           </ProjectAreaWrapperColumns>
         </Container>
       </ProjectsArea>
-      <AboutMe />
 
     </main>
   );

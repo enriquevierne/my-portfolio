@@ -56,21 +56,24 @@ export const ProjectsArea = styled("section", {
   padding: "4rem 0 8rem 0",
 });
 
-export const ProjectsAreaSocialMediaMessage = styled("aside", {
-  width: "32%",
-  display: "flex",
-  flexDirection: "column",
-  gap: "2rem",
-  position: "sticky",
-  top: "10rem",
+export const ProjectsAreaSocialMediaMessage = styled(
+  "aside",
+  {
+    width: "32%",
+    display: "flex",
+    flexDirection: "column",
+    gap: "2rem",
+    position: "sticky",
+    top: "10rem",
 
-  "@mobile": {
-    width: "100%",
-    position: "static",
-    order: "2",
-    marginTop: "5rem",
-  },
-});
+    "@mobile": {
+      width: "100%",
+      position: "static",
+      order: "2",
+      marginTop: "5rem",
+    },
+  }
+);
 
 export const ProjectsAreaContent = styled("div", {
   width: "60%",
@@ -89,7 +92,23 @@ export const ProjectAreaWrapperColumns = styled(Flex, {
   },
 });
 
-export const AboutMeArea = styled("p", {
-  
+export const ContainerAboutMe = styled("div", {
+  width: "90%",
   display: "flex",
-})
+  flexDirection: "column",
+  gap: "8px",
+  fontSize: "1.5rem",
+  fontWeight: "bold",
+  paddingBottom: "20px",
+
+  "@mobile": {
+    width: "100%",
+    paddingLeft: "0",
+  },
+});
+
+export const TextAboutMe = styled("p", {
+  fontSize: "1rem",
+  fontWeight: "normal"
+
+});

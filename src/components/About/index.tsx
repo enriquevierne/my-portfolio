@@ -1,6 +1,10 @@
+import { ContainerAboutMe, TextAboutMe } from "@/pages/home/style";
+
 export const AboutMe = () => {
   return (
-    <p id="about">
+    <ContainerAboutMe>
+    <p className="">Sobre mim</p>
+    <TextAboutMe id="about">
       Desde muito cedo estou inserido no mundo da
       tecnologia, acompanhei toda a evolução da internet, da
       época discada à 5G, e com as dúvidas que surgem ao
@@ -14,6 +18,7 @@ export const AboutMe = () => {
       mudanças e vejo melhorias a serem implementadas no
       local de trabalho. Tenho inglês intermediário, mas em
       constante aprendizagem para evoluir cada vez mais.
-    </p>
+    </TextAboutMe>
+    </ContainerAboutMe>
   );
 };
